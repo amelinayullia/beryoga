@@ -1,0 +1,14 @@
+.nav-list__link {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 36px;
+  opacity: .5;
+  letter-spacing: .9px;
+  color: #1c2056;
+
+  &--active {
+    opacity: 1;
+    color: #ff6a6d;
+    font-weight: 700;
+  }
+}
