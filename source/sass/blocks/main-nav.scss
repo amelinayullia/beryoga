@@ -1,4 +1,10 @@
 .main-nav {
   display: flex;
-  
+  min-width: 51%;
+
+  .main-nav__button {
+    padding: 11px 47px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
 }

@@ -1,7 +1,12 @@
 .page-header {
   display: flex;
   justify-content: space-between;
-  max-width: 1920px;
   padding: 0;
   padding-top: 90px;
+
+  .page-header__logo {
+    margin-top: 7px;
+    margin-right: 40%;
+    max-width: 9%
+  }
 }
