@@ -1,12 +1,11 @@
 .page-header {
   display: flex;
-  justify-content: space-between;
   padding: 0;
   padding-top: 90px;
+  padding-right: 220px;
+  padding-left: 220px;
 
   .page-header__logo {
     margin-top: 7px;
-    margin-right: 40%;
-    max-width: 9%
   }
 }
