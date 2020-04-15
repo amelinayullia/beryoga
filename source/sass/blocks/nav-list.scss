@@ -1,0 +1,27 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 58px;
+  list-style: none;
+  padding: 0;
+
+  .nav-list__link {
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    color: #1c2056;
+    padding-right: 67px;
+
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &--active {
+      color: #ff6a6d;
+      font-weight: 700;
+    }
+  }
+}

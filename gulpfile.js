@@ -2,19 +2,19 @@
 
 const gulp = require("gulp");
 const imagemin = require("gulp-imagemin");
-var webp = require("gulp-webp");
-var plumber = require("gulp-plumber");
-var sourcemap = require("gulp-sourcemaps");
-var rename = require("gulp-rename");
-var sass = require("gulp-sass");
-var postcss = require("gulp-postcss");
-var svgstore = require("gulp-svgstore");
-var posthtml = require("gulp-posthtml");
-var include = require("posthtml-include");
-var autoprefixer = require("autoprefixer");
-var csso = require("gulp-csso");
-var del = require("del");
-var server = require("browser-sync").create();
+const webp = require("gulp-webp");
+const plumber = require("gulp-plumber");
+const sourcemap = require("gulp-sourcemaps");
+const rename = require("gulp-rename");
+const sass = require("gulp-sass");
+const postcss = require("gulp-postcss");
+const svgstore = require("gulp-svgstore");
+const posthtml = require("gulp-posthtml");
+const include = require("posthtml-include");
+const autoprefixer = require("autoprefixer");
+const csso = require("gulp-csso");
+const del = require("del");
+const server = require("browser-sync").create();
 
 gulp.task("css", function () {
   return gulp.src("source/sass/style.scss")
