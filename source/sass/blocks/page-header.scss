@@ -2,10 +2,16 @@
   display: flex;
   padding: 0;
   padding-top: 90px;
-  padding-right: 220px;
-  padding-left: 220px;
+  max-width: 1440px;
+  margin: 0 auto;
 
   .page-header__logo {
     margin-top: 7px;
+    margin-right: 20px;
+  }
+
+  .page-header__image {
+    max-width: 126px;
+    max-height: 30px;
   }
 }
