@@ -1,0 +1,37 @@
+.advantages {
+  margin-top: 450px;
+
+  .advantages__inner {
+    max-width: 685px;
+    text-align: center;
+    max-width: 685px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+  }
+
+  .advantages__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    color: #3b3838;
+  }
+
+  .advantages__description {
+    color: rgb(166,166,166);
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .advantages__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+  }
+
+  .advantages__item {
+    max-width: 273px;
+  }
+}

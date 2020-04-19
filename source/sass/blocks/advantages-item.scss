@@ -1,0 +1,21 @@
+.advantages-item {
+  text-align: center;
+  list-style: none;
+
+  .advantages-item__image {
+    margin-bottom: 90px;
+  }
+
+  .advantages-item__example {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #3b3838;
+  }
+
+  .advantages-item__description {
+    color: rgb(166,166,166);
+    line-height: 27px;
+    margin: 0;
+  }
+}
