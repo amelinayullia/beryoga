@@ -1,0 +1,23 @@
+.about {
+  margin-top: 170px;
+  max-width: 535px;
+  margin-left: 320px;
+
+  .about__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #3b3838;
+    margin: 0;
+    margin-bottom: 65px;
+  }
+
+  .about__description {
+    margin: 0;
+    color: rgb(166,166,166)
+  }
+
+  .about__sign {
+    margin-top: 70px;
+  }
+}
