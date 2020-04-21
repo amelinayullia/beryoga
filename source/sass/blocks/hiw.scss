@@ -1,11 +1,19 @@
 .hiw {
   margin-top: 320px;
-  max-width: 550px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-right: 300px;
   margin-bottom: 300px;
-  position: relative;
+  display: flex;
+
+  .hiw__image {
+    max-width: 700px;
+    height: 655px;
+  }
+
+  .hiw__inner {
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+    margin-left: 50px;
+  }
 
   .hiw__title {
     color: #3b3838;
@@ -21,15 +29,6 @@
     list-style: none;
     padding: 0;
     padding-left: 60px;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    background-image: url(/../img/2.png);
-    top: 0;
-    left: -750px;
-    width: 710px;
-    height: 660px;
+    max-width: 550px;
   }
 }
