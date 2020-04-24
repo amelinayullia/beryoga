@@ -6,12 +6,13 @@
   .hiw__image {
     max-width: 700px;
     height: 655px;
+    margin-left: 250px;
   }
 
   .hiw__inner {
     display: flex;
     flex-direction: column;
-    margin-right: 180px;
+    margin-right: 315px;
     margin-left: 50px;
   }
 
@@ -29,6 +30,5 @@
     list-style: none;
     padding: 0;
     padding-left: 60px;
-    max-width: 550px;
   }
 }
