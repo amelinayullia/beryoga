@@ -1,0 +1,131 @@
+.offers-item {
+  min-width: 475px;
+  box-shadow: -27px 32px 35px rgba(255, 106, 109, 0.15);
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding-top: 35px;
+  height: 690px;
+
+  &--bestseller {
+    min-width: 500px;
+    border-radius: 20px;
+    box-shadow: -24px 28px 136px rgba(255, 106, 109, 0.19);
+    background: linear-gradient(to top, #ffffff 85%, #ff6a6d 15%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    min-height: 770px;
+  }
+
+  .offers-item__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #494949;
+    padding: 0 158px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin: 0;
+
+    &--bestseller {
+      color: #ffffff;
+      text-transform: uppercase;
+      padding: 40px 150px;
+      margin: 0;
+    }
+  }
+
+  .offers-item__list {
+    list-style: none;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    padding-left: 140px;
+    padding-right: 20px;
+
+    &--yogaclass {
+      margin-bottom: 38px;
+    }
+  }
+
+  .offers-item__item {
+    line-height: 29px;
+    color: rgb(146, 146, 146);
+    padding-bottom: 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      background-color: #8ec7fb;
+      top: -8px;
+      left: -70px;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -64px;
+      width: 25px;
+      height: 12px;
+      border-bottom: 4px solid #ffffff;
+      border-left: 4px solid #ffffff;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    &--bestseller {
+      &::before {
+        background-color: #ff6a6d;
+      }
+    }
+  }
+
+  .offers-item__price {
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(97, 97, 97);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .offers-item__sup-price {
+    font-size: 48px;
+    padding-right: 10px;
+  }
+
+  .offers-item__season-price {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .offers-item__save {
+    color: rgb(146, 146, 146);
+    margin-left: 130px;
+  }
+
+  .offers-item__button {
+    padding: 26px 32px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin-top: 60px;
+    box-shadow: -14px 16px 24px 1px rgba(95, 206, 244, 0.29),
+      0 0 7px rgba(255, 255, 255, 0.35);
+    background-color: #8ec7fb;
+    background-image: linear-gradient(24deg, #21acdd 0%, #9ddae9 100%);
+    margin-left: 140px;
+
+    &--bestseller {
+      box-shadow: -14px 16px 24px 1px rgba(226, 88, 91, 0.29),
+        0 0 7px rgba(255, 255, 255, 0.35);
+      background-color: #ff6a6d;
+      background-image: linear-gradient(24deg, #ff6a6d, #ff6a6d);
+    }
+  }
+}
