@@ -25,13 +25,20 @@
 
   .advantages__list {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
+    flex-wrap: wrap;
     padding: 0;
+    margin: 0;
+    margin-left: 300px;
+    margin-right: 300px;
   }
 
   .advantages__item {
     max-width: 273px;
+    margin-right: 220px;
+    padding-bottom: 25px;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
   }
 }
