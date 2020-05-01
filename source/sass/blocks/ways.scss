@@ -1,18 +1,20 @@
 .ways{
   display: flex;
+  max-width: 1560px;
+  margin: 0 auto;
   margin-bottom: 150px;
 
   .ways__image {
     max-width: 630px;
     height: 735px;
-    margin-left: 180px;
-    margin-right: 70px;
+    margin-right: 50px;
   }
 
   .ways__inner {
     display: flex;
     flex-direction: column;
-    margin-right: 325px;
+    margin-left: 50px;
+    padding-right: 170px;
   }
 
   .ways__title {
@@ -27,7 +29,7 @@
     margin: 0;
     margin-left: 82px;
     text-indent: 55px;
-    color: rgb(166,166,166);
+    color: #a6a6a6;
   }
 
   .ways__link {

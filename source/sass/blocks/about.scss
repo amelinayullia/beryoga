@@ -14,10 +14,29 @@
 
   .about__description {
     margin: 0;
-    color: rgb(166,166,166);
+    color: #a6a6a6;
+    padding-right: 42px;
   }
 
-  .about__sign {
+  .about__cta {
     margin-top: 70px;
+  }
+
+  .about__cta-button {
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 30px 85px;
+    box-shadow: -14px 17px 24px 1px rgba(226, 88, 91, 0.45), 0 0 7px rgba(255, 255, 255, 0.35);
+
+    &--service {
+      color: rgba(251, 252, 252, 0.7);
+      margin-right: 30px
+    }
+
+    &--signup {
+      color: #f82a56;
+      background-color: transparent;
+      border: 2px solid #ff6a6d;
+    }
   }
 }

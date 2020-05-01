@@ -50,7 +50,7 @@
 
   .offers-item__item {
     line-height: 29px;
-    color: rgb(146, 146, 146);
+    color: #a6a6a6;
     padding-bottom: 40px;
     position: relative;
 
@@ -89,7 +89,7 @@
     font-size: 75px;
     font-weight: 500;
     line-height: 50px;
-    color: rgb(97, 97, 97);
+    color: #3b3838;
     text-align: center;
     margin: 0;
     margin-bottom: 40px;
@@ -106,20 +106,22 @@
   }
 
   .offers-item__save {
-    color: rgb(146, 146, 146);
-    margin-left: 130px;
+    color: #a6a6a6;
+    text-align: center;
+    display: block;
   }
 
   .offers-item__button {
     padding: 26px 32px;
     border-radius: 40px;
     font-size: 18px;
+    margin: auto;
+    display: block;
     margin-top: 60px;
     box-shadow: -14px 16px 24px 1px rgba(95, 206, 244, 0.29),
       0 0 7px rgba(255, 255, 255, 0.35);
     background-color: #8ec7fb;
     background-image: linear-gradient(24deg, #21acdd 0%, #9ddae9 100%);
-    margin-left: 140px;
 
     &--bestseller {
       box-shadow: -14px 16px 24px 1px rgba(226, 88, 91, 0.29),
