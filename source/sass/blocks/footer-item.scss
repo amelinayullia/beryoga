@@ -1,0 +1,32 @@
+.footer-item {
+  .footer-item__title {
+    font-size: 22px;
+    letter-spacing: 1.8px;
+    color: $dark-grey;
+    text-transform: uppercase;
+
+  }
+
+  .footer-item__link {
+    display: block;
+    font-size: 20px;
+    color: $grey;
+    text-decoration: none;
+    display: table;
+    position: relative;
+
+    &--about,
+    &--programs,
+    &--support {
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color:  $grey;
+        left: 0;
+        top: 32px;
+      }
+    }
+  }
+}

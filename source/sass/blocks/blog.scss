@@ -1,7 +1,9 @@
 .blog {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 300px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 150px;
 
 
   .blog__author {
@@ -23,16 +25,13 @@
   .blog__inner {
     display: flex;
     flex-direction: column;
-    max-width: 550px;
-    margin-left: 250px;
-    margin-top: 110px;
+    max-width: 540px;
+    margin-top: 40px;
+    margin-right: 50px;
   }
 
   .blog__image {
-    max-width: 660px;
-    height: 640px;
-    margin-right: 250px;
-    margin-left: 130px;
+    margin: 0;
   }
 
   .blog__title {
@@ -44,17 +43,14 @@
 
   .blog__description {
     margin: 0;
-    margin-top: 60px;
-    margin-left: 55px;
-    margin-right: 95px;
+    padding: 40px;
     color: #a6a6a6;
-    margin-bottom: 60px;
   }
 
   .blog__link {
     color: #3cbef1;
     font-style: italic;
     text-decoration: none;
-    margin-left: 55px;
+    padding-left: 40px;
   }
 }

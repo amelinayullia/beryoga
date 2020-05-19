@@ -1,0 +1,26 @@
+.footer {
+  .footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    padding: 15px;
+    flex-basis: 270px;
+    margin-right: 50px;
+  }
+
+  .footer__copyright {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: $grey;
+  }
+}

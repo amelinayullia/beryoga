@@ -1,11 +1,13 @@
 .offers-item {
-  min-width: 475px;
   box-shadow: -27px 32px 35px rgba(255, 106, 109, 0.15);
   border-radius: 20px;
   background-color: #ffffff;
   margin-top: 40px;
   padding-top: 35px;
   height: 690px;
+  flex-basis: 475px;
+  flex-shrink: 1;
+  margin-bottom: 40px;
 
   &--bestseller {
     min-width: 500px;
@@ -31,7 +33,7 @@
     &--bestseller {
       color: #ffffff;
       text-transform: uppercase;
-      padding: 40px 150px;
+      padding: 43px 150px;
       margin: 0;
     }
   }
@@ -42,6 +44,7 @@
     margin-bottom: 60px;
     padding-left: 140px;
     padding-right: 20px;
+    padding-top: 10px;
 
     &--yogaclass {
       margin-bottom: 38px;
@@ -68,8 +71,8 @@
     &::after {
       content: "";
       position: absolute;
-      top: 0;
-      left: -64px;
+      top: 2px;
+      left: -61px;
       width: 25px;
       height: 12px;
       border-bottom: 4px solid #ffffff;

@@ -1,12 +1,13 @@
 .advantages {
-  margin-top: 450px;
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 1280px;
 
   .advantages__inner {
-    max-width: 685px;
-    text-align: center;
-    max-width: 685px;
-    margin: 0 auto;
-    margin-bottom: 140px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .advantages__title {
@@ -15,30 +16,29 @@
     line-height: 60px;
     margin: 0;
     color: #3b3838;
+    text-align: center;
   }
 
   .advantages__description {
     color: #a6a6a6;
     margin: 0;
     margin-top: 40px;
+    max-width: 685px;
+    text-align: center;
   }
 
   .advantages__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
-    margin-left: 300px;
-    margin-right: 300px;
   }
 
   .advantages__item {
-    max-width: 273px;
-    margin-right: 220px;
-    padding-bottom: 25px;
-
-    &:nth-child(3n) {
-      margin-right: 0;
-    }
+    padding: 25px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    align-items: center;
   }
 }

@@ -1,13 +1,12 @@
 .best-offers {
-  margin-bottom: 200px;
+  margin-top: 150px;
 
   .best-offers__list {
     display: flex;
     margin: 0;
-    margin-left: 240px;
-    margin-right: 240px;
     padding: 0;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
   }
 }

@@ -1,18 +1,18 @@
 .hiw {
-  margin-top: 320px;
-  margin-bottom: 300px;
+  margin-top: 150px;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
   .hiw__image {
-    max-width: 700px;
-    height: 655px;
-    margin-left: 250px;
+    margin: 0;
   }
 
   .hiw__inner {
     display: flex;
     flex-direction: column;
-    margin-right: 315px;
+    max-width: 500px;
+    margin-top: 40px;
     margin-left: 50px;
   }
 

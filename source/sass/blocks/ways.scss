@@ -1,20 +1,19 @@
 .ways{
   display: flex;
-  max-width: 1560px;
-  margin: 0 auto;
-  margin-bottom: 150px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 150px;
 
   .ways__image {
-    max-width: 630px;
-    height: 735px;
-    margin-right: 50px;
+    margin: 0;
   }
 
   .ways__inner {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    padding-right: 170px;
+    margin-top: 40px;
+    max-width: 660px;
   }
 
   .ways__title {
@@ -22,21 +21,20 @@
     font-weight: 700;
     line-height: 67px;
     margin: 0;
-    margin-bottom: 80px;
   }
 
   .ways__description {
     margin: 0;
-    margin-left: 82px;
-    text-indent: 55px;
+    padding-left: 40px;
     color: #a6a6a6;
+    margin-top: 20px;
   }
 
   .ways__link {
     color: #3cbef1;
     font-style: italic;
     text-decoration: none;
-    margin-left: 90px;
-    margin-top: 80px;
+    padding-left: 40px;
+    margin-top: 40px;
   }
 }
