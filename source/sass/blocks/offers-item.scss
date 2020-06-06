@@ -4,20 +4,16 @@
   background-color: #ffffff;
   margin-top: 40px;
   padding-top: 35px;
-  height: 690px;
+  padding-bottom: 35px;
   flex-basis: 475px;
   flex-shrink: 1;
   margin-bottom: 40px;
 
   &--bestseller {
-    min-width: 500px;
     border-radius: 20px;
     box-shadow: -24px 28px 136px rgba(255, 106, 109, 0.19);
     background: linear-gradient(to top, #ffffff 85%, #ff6a6d 15%);
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-    min-height: 770px;
+    padding-top: 0;
   }
 
   .offers-item__title {
@@ -25,7 +21,7 @@
     font-weight: 700;
     line-height: 29px;
     color: #494949;
-    padding: 0 158px;
+    padding: 0 78px;
     padding-top: 35px;
     padding-bottom: 30px;
     margin: 0;
@@ -33,7 +29,7 @@
     &--bestseller {
       color: #ffffff;
       text-transform: uppercase;
-      padding: 43px 150px;
+      padding: 43px 95px;
       margin: 0;
     }
   }
@@ -119,18 +115,24 @@
     border-radius: 40px;
     font-size: 18px;
     margin: auto;
+    margin-top: 20px;
     display: block;
-    margin-top: 60px;
-    box-shadow: -14px 16px 24px 1px rgba(95, 206, 244, 0.29),
-      0 0 7px rgba(255, 255, 255, 0.35);
     background-color: #8ec7fb;
     background-image: linear-gradient(24deg, #21acdd 0%, #9ddae9 100%);
 
+    &:hover {
+      box-shadow: -14px 16px 24px 1px rgba(95, 206, 244, 0.29),
+      0 0 7px rgba(255, 255, 255, 0.35);
+    }
+
     &--bestseller {
-      box-shadow: -14px 16px 24px 1px rgba(226, 88, 91, 0.29),
-        0 0 7px rgba(255, 255, 255, 0.35);
       background-color: #ff6a6d;
       background-image: linear-gradient(24deg, #ff6a6d, #ff6a6d);
+
+      &:hover {
+        box-shadow: -14px 16px 24px 1px rgba(226, 88, 91, 0.29),
+        0 0 7px rgba(255, 255, 255, 0.35);
+      }
     }
   }
 }

@@ -34,20 +34,14 @@
     border-radius: 40px;
     font-size: 20px;
     padding: 30px 85px;
-    box-shadow: -14px 17px 24px 1px rgba(226, 88, 91, 0.45),
-      0 0 7px rgba(255, 255, 255, 0.35);
     margin-top: 30px;
     flex-grow: 1;
     margin: 25px;
+    color: $pink-red;
+    border: 2px solid #ff6a6d;
 
-    &--service {
+    &:active {
       color: rgba(251, 252, 252, 0.7);
-    }
-
-    &--signup {
-      color: #f82a56;
-      background-color: transparent;
-      border: 2px solid #ff6a6d;
     }
   }
 }
