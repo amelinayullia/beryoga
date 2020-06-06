@@ -1,0 +1,40 @@
+.ways{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 150px;
+
+  .ways__image {
+    margin: 0;
+  }
+
+  .ways__inner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 40px;
+    max-width: 660px;
+  }
+
+  .ways__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 67px;
+    margin: 0;
+  }
+
+  .ways__description {
+    margin: 0;
+    padding-left: 40px;
+    color: #a6a6a6;
+    margin-top: 20px;
+  }
+
+  .ways__link {
+    color: #3cbef1;
+    font-style: italic;
+    text-decoration: none;
+    padding-left: 40px;
+    margin-top: 40px;
+  }
+}

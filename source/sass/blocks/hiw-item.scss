@@ -1,0 +1,27 @@
+.hiw-item {
+  margin-bottom: 45px;
+
+  .hiw-item__title {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: -55px;
+      width: 30px;
+      height: 15px;
+      border-bottom: 5px solid #ff6a6d;
+      border-left: 5px solid #ff6a6d;
+      transform: rotate(-45deg);
+    }
+  }
+
+  .hiw-item__description {
+    margin: 0;
+    margin-top: 10px;
+    color: #a6a6a6;
+  }
+}

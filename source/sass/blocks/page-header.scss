@@ -1,16 +1,16 @@
 .page-header {
   display: flex;
   padding: 0;
-  padding-top: 90px;
-  max-width: 1440px;
-  margin: 0 auto;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
   .page-header__logo {
-    margin-top: 7px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .page-header__image {
-    max-width: 126px;
+    max-width: 130px;
+    margin-top: 15px;
   }
 }

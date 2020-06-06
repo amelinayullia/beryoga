@@ -1,0 +1,34 @@
+.hiw {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .hiw__image {
+    margin: 0;
+  }
+
+  .hiw__inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .hiw__title {
+    color: #3b3838;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+  }
+
+  .hiw__list {
+    margin: 0;
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
+    padding-left: 60px;
+  }
+}
