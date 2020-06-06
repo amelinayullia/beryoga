@@ -12,7 +12,7 @@
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.9px;
-    color: #1c2056;
+    color: $dark-blue;
     padding-right: 25px;
     padding-left: 25px;
 
@@ -22,7 +22,7 @@
     }
 
     &--active {
-      color: #ff6a6d;
+      color: $light-pink-red;
       font-weight: 700;
     }
   }

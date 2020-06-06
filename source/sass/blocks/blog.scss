@@ -9,13 +9,13 @@
   .blog__author {
     font-size: 20px;
     font-weight: 400;
-    color: #a6a6a6;
+    color: $light-gray;
     position: relative;
 
     &::after {
       content: "";
       position: absolute;
-      border-bottom: 2px solid #a6a6a6;
+      border-bottom: 2px solid $light-gray;
       top: 25px;
       left: 205px;
       width: 50px;
@@ -44,11 +44,11 @@
   .blog__description {
     margin: 0;
     padding: 40px;
-    color: #a6a6a6;
+    color: $light-gray;
   }
 
   .blog__link {
-    color: #3cbef1;
+    color: $blue;
     font-style: italic;
     text-decoration: none;
     padding-left: 40px;

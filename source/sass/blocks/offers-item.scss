@@ -1,7 +1,7 @@
 .offers-item {
   box-shadow: -27px 32px 35px rgba(255, 106, 109, 0.15);
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: $white;
   margin-top: 40px;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -12,7 +12,7 @@
   &--bestseller {
     border-radius: 20px;
     box-shadow: -24px 28px 136px rgba(255, 106, 109, 0.19);
-    background: linear-gradient(to top, #ffffff 85%, #ff6a6d 15%);
+    background: linear-gradient(to top, $white 85%, $light-pink-red 15%);
     padding-top: 0;
   }
 
@@ -20,14 +20,14 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 29px;
-    color: #494949;
+    color: $grey;
     padding: 0 78px;
     padding-top: 35px;
     padding-bottom: 30px;
     margin: 0;
 
     &--bestseller {
-      color: #ffffff;
+      color: $white;
       text-transform: uppercase;
       padding: 43px 95px;
       margin: 0;
@@ -49,7 +49,7 @@
 
   .offers-item__item {
     line-height: 29px;
-    color: #a6a6a6;
+    color: $light-gray;
     padding-bottom: 40px;
     position: relative;
 
@@ -58,7 +58,7 @@
       position: absolute;
       width: 38px;
       height: 38px;
-      background-color: #8ec7fb;
+      background-color: $light-blue;
       top: -8px;
       left: -70px;
       border-radius: 50%;
@@ -71,15 +71,15 @@
       left: -61px;
       width: 25px;
       height: 12px;
-      border-bottom: 4px solid #ffffff;
-      border-left: 4px solid #ffffff;
+      border-bottom: 4px solid $white;
+      border-left: 4px solid $white;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
     }
 
     &--bestseller {
       &::before {
-        background-color: #ff6a6d;
+        background-color: $light-pink-red;
       }
     }
   }
@@ -88,7 +88,7 @@
     font-size: 75px;
     font-weight: 500;
     line-height: 50px;
-    color: #3b3838;
+    color: $dark-grey;
     text-align: center;
     margin: 0;
     margin-bottom: 40px;
@@ -105,7 +105,7 @@
   }
 
   .offers-item__save {
-    color: #a6a6a6;
+    color: $light-gray;
     text-align: center;
     display: block;
   }
@@ -117,8 +117,8 @@
     margin: auto;
     margin-top: 20px;
     display: block;
-    background-color: #8ec7fb;
-    background-image: linear-gradient(24deg, #21acdd 0%, #9ddae9 100%);
+    background-color: $light-blue;
+    background-image: linear-gradient(24deg, $blue 0%, $light-blue 100%);
 
     &:hover {
       box-shadow: -14px 16px 24px 1px rgba(95, 206, 244, 0.29),
@@ -126,8 +126,8 @@
     }
 
     &--bestseller {
-      background-color: #ff6a6d;
-      background-image: linear-gradient(24deg, #ff6a6d, #ff6a6d);
+      background-color: $light-pink-red;
+      background-image: linear-gradient(24deg, $light-pink-red, $light-pink-red);
 
       &:hover {
         box-shadow: -14px 16px 24px 1px rgba(226, 88, 91, 0.29),
